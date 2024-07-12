@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*   shared style  */
+.text-primary
+{
+    color: #FF6F0B;
+}
+.dark1
+{
+    color: #181818;
+}
+.dark2
+{
+    color: #474747;
+}
+.dark3
+{
+    color: #757575;
+}
+
+/* Shared Button */
+.btn-primary
+{
+    background-color: #FD6E0A;
+    font-weight: 700px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 150px;
+    
+}
+.ntitle
+{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+}
+nav ul li
+{
+    
+    list-style: none;
+    margin-right: 51px;
+    
+}
+nav li a
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+.greeting
+{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.btitle
+{
+    font-weight: bold;
+    font-size: 70px;
+}
+.b_i
+{
+    width: 500px;
+}
+.banner
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 150px;
+}
+.content
+{
+    max-width: 585px;
+}
+.dev
+{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
