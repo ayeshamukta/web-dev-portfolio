@@ -38,6 +38,7 @@
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+    
 }
 /* shared title */
 .about-title
@@ -177,4 +178,43 @@ main{
     text-align: center;
     line-height: 30px;
     
+}
+/* Resume Style */
+.resume-container
+{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+.exp-des
+{
+    color: #757575;
+    font-size: 16px;
+}
+.exp-sub-title
+{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.down-bt
+{
+    margin: 50px;
+}
+.col-title
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+.exp-title
+{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+hr
+{
+    margin-right: 20px;
 }
